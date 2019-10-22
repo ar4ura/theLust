@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.form-home{
+    background-color: blue;
+    border-bottom: 1px solid black;
+}
+
+
+
+
+.btn-home{
+    display: flex;
+    justify-content: space-around;
+    overflow: auto;
+}
+
+.btn{
+    width: 20%;
+    height: 3rem;
+    margin: 1%;
+    background-color: blue;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 1rem;
+    border:1px solid black;
+    transition: 600ms;
+}
+
+.btn:hover{
+    border: 3px solid white;
+    transition: 400ms;
+}
+
+.btn-x{
+    background-color: blue;
+    color: white;
+    margin: auto;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 2rem;
+    transition: 300ms;
+}
+
+.btn-x p{
+    font-size: 1rem;
+    margin: auto;
+    color: white;
+}
+
+
+.form-today{
+    display: none;
+}
+
+.form-tomorrow{
+    display: none;
+}
+
+.form-window{
+    margin: 5%;
+    width: 90%;
+    height: 90%;
+    border: 2px solid blue;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea{
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+}
+
+.btn-okey{
+    background-color: blue;
+    color: white;
+    margin: auto;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+    transition: 300ms;
+}
